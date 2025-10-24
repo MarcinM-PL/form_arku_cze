@@ -8,8 +8,6 @@
          body{
             background-color: rgba(128, 128, 128, 0.932);
             color: rgb(255, 255, 255);
-            text-align: center;
-            margin-top: 250px;
         }
         form{
             font-weight: bolder;
@@ -18,6 +16,23 @@
     </style>
 </head>
 <body>
+    <h1>Zamówienie</h1>
+    <label for="1">Wybierz obraz:</label>
+    <input type="file" id="1" name="plik" >
+    <br><br>
+    <label for="2">Liczba Kopii:</label>
+    <input type="text" id="2" name="kopie">
+    <br><br>
+    <label>
+        <input type="radio" name="papier">Papier błyszczący
+    </label>
+    <br><br>
+    <label>
+        <input type="radio" name="papier">Papier matowy
+    </label>
+    <br><br>
+    <input type="submit" value="Dodaj do koszyka">
+
     
 </body>
 </html>
