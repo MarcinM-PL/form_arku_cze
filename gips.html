@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.932);
+        }
+        h1{
+            font-size: 60px;
+            color: white;
+            font-weight: 600;
+        }
+        div{
+            margin: 60px;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row; ">
+        <div>
+            <h2>Dla klientów</h2>
+            <form style="display: flex; flex-direction: column; ">
+                <label for="1">Ilu co najmniej pracowników potrzebujesz?</label>
+                <div style="display: flex; flex-direction: row; margin: 0px;">
+                    <input type="number" id="1" name="pracownicy" value="30">
+                    <input type="submit" value="Szukaj firmy">
+                </div>
+            </form>
+        </div>
+        <div>
+            <h2>Dla wykonwców</h2>
+            <form style="display: flex; flex-direction: column; ">
+                <select name="miasto">
+                    <option value="Wrocław">Wrocław</option>
+                    <option value="cos" disabled>cos</option>
+                </select>
+                <label>
+                    <input type="radio" name="czyn" value="malowanie">malowanie
+                </label>
+                 <label>
+                    <input type="radio" name="czyn" value="gipsowanie">gipsowanie
+                </label>
+                <input type="submit" value="Szukaj Klientów">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

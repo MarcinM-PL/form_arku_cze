@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.932);
+            text-align: center;
+        }
+        h1{
+            font-size: 60px;
+            color: white;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Twój cel wyprawy</h3>
+    <form>
+        <label for="1">Miejsce wycieczki</label>
+        <br>
+        <select name="miejsce" id="1">
+            <option value="Tokio">Tokio</option>
+            <option value="cos" disabled>cos</option>
+        </select>
+        <br>
+        <label for="2">Ile dorosłych?</label>
+        <br>
+        <input type="number" name="dorosli" id="2">
+        <br>
+        <label for="3">Ile dzieci?</label>
+        <br>
+        <input type="number" id="3" name="dzieci">
+        <br>
+        <label for="4">Termin</label>
+        <br>
+        <input type="date" id="4" name="termin">
+        <br>
+        <input type="submit" value="Symulacja ceny">
+    </form>
+    
+</body>
+</html>

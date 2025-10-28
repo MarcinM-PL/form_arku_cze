@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.932);
+            text-align: center;
+        }
+        h1{
+            font-size: 60px;
+            color: white;
+            font-weight: 600;
+        }
+        input, select{
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Zapisy na kursy</h2>
+    <form style="display: flex; flex-direction: column;">
+        <label for="1">Imię</label>
+        <input type="text" name="imie" id="1">
+        <label for="2">Nazwisko</label>
+        <input type="text" name="Nazwisko" id="2">
+        <label for="3">Wiek</label>
+        <input type="number" name="Wiek" id="3">   
+        <label for="4">Rodzaj kursu</label> 
+        <select id="4" name="kurs">
+            <option value="ang">język angielski</option>
+            <option value="DE">język niemiecki</option>
+        </select>
+        <input type="submit" value="Dodaj dane">
+    </form>
+    
+</body>
+</html>
